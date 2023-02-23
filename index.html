@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>다경 | 웹퍼블리셔 포트폴리오</title>
+  <link rel="icon" href="src/favicon-sparkles.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,700;0,800;1,200;1,300&family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">  
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- BUTTON gnb -->
+  <button class="btn-gnb">
+    <svg viewBox="0 0 100 100" width="100" height="100">
+      <defs>
+        <path id="circle"
+          d="
+            M 50, 50
+            m -37, 0
+            a 37,37 0 1,1 74,0
+            a 37,37 0 1,1 -74,0"/>
+      </defs>
+      <text>
+        <textPath xlink:href="#circle">
+          ALWAYS GOOD THINGS
+        </textPath>
+      </text>
+    </svg>
+  </button>
+  <nav class="gnb">
+    <div class="gnb-bg"></div>
+    <div class="gnb-inner">
+      <button class="close">
+        <span></span><span></span>
+      </button>
+      <ul>
+        <li><a href="#home">HOME <span></span></a></li>
+        <li><a href="#start-about">ABOUT <span></span></a></li>
+        <li><a href="#skills">SKILL <span></span></a></li>
+        <li><a href="#project">PROJECT <span></span></a></li>
+        <li><a href="#contact">CONTACT <span></span></a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- HOME -->
+
+  <section id="home">
+    <div class="home-bg"></div>
+    <div class="text-wrap">
+      <div class="row row1"><h2>Hello,&nbsp;</h2><h3>my name</h3></div>
+      <div class="row row2"><h2>is&nbsp;</h2><h1>Hong<div class="circle"></div></h1></div>
+      <div class="row row3"><h1>Dagyeong&nbsp;:)</h1><p>안녕하세요.<br>홍다경의 포트폴리오 웹사이트에 오신걸 환영합니다.<br>새로운 것을 배우고 성장하는 것에서 큰 기쁨과 보람을 느끼는 사람입니다. 저에게 궁금하신 점이 있다면 웹사이트 하단을 확인해주시기 바랍니다. 그럼 시작하겠습니다.</p></div>
+    </div>
+
+  </section>
+  
+  
+  <!-- ABOUT -->
+  <div id="start-about"></div>
+  <section id="about">
+    <div class="about-inner">
+      <h4>多慶</h4><h4>많을 다</h4><h4>경사 경</h4>
+      <h5>: 늘 좋은 일이 가득한, <span>홍다경</span>&nbsp;입니다.</h5>
+      <div class="info-wrap">
+        <div class="info education">
+          <span class="title">Education</span>
+          <div class="contents">
+            <p class="date">2018.02.<br>2014.02.</p>
+            <p class="desc">명지전문대학 커뮤니케이션디자인과 졸업<br>선일이비즈니스고등학교 경영과 졸업</p>
+          </div>
+        </div>
+        <div class="info license">
+          <span class="title">License</span>
+          <div class="contents">
+            <p class="desc">ITQ 아래한글 A등급<br>ITQ 한글엑셀 A등급<br>ITQ 한글파워포인트 A등급<br>ITQ 한글액세스 B등급<br>GTQ 그래픽기술자격 1급</p>
+          </div>
+        </div>
+        <div class="info experience">
+          <span class="title">Experience</span>
+          <div class="contents">
+            <p class="date">2018.05. - 2018.11.<br>2019.01. - 2020.04.<br>2019.01. - 2020.04.</p>
+            <p class="desc">(주) 스파티움 | 디자이너 | 소품 디자인, 현장진행<br>금산갤러리 | 디자이너 |  전시 디자인, 웹사이트 관리<br>아시아호텔아트페어 | 디자이너 | 아트페어 총괄 디자인, 웹사이트 관리</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="skills-bg"></div>
+    <ul class="skill-wrap">
+      <li class="skill ai"><div class="icon"></div> <span class="counter" data-rate="90"></span><small>%</small></li>
+      <li class="skill ps"><div class="icon"></div> <span class="counter" data-rate="80"></span><small>%</small></li>
+      <li class="skill id"><div class="icon"></div> <span class="counter" data-rate="80"></span><small>%</small></li>
+      <li class="skill xd"><div class="icon"></div> <span class="counter" data-rate="75"></span><small>%</small></li>
+      <li class="skill html"><div class="icon"></div> <span class="counter" data-rate="90"></span><small>%</small></li>
+      <li class="skill css"><div class="icon"></div> <span class="counter" data-rate="90"></span><small>%</small></li>
+      <li class="skill js"><div class="icon"></div> <span class="counter" data-rate="70"></span><small>%</small></li>
+    </ul>
+  </section>
+  <!-- PROJECT -->
+
+  <section id="project">
+    <h5>제가 작업한 프로젝트를 보여드릴게요</h5>
+    <div class="carousel">
+      <div class="carousel_nav">
+        <span id="moveLeft" class="carousel_arrow">
+          <svg class="carousel_icon" width="24" height="24" viewBox="0 0 24 24">
+            <path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z"></path>
+          </svg>
+        </span>
+        <span id="moveRight" class="carousel_arrow" >
+          <svg class="carousel_icon"  width="24" height="24" viewBox="0 0 24 24">
+            <path d="M4,11V13H16L10.5,18.5L11.92,19.92L19.84,12L11.92,4.08L10.5,5.5L16,11H4Z"></path>
+          </svg>    
+        </span>
+      </div>
+      <div class="carousel-item carousel-item-1">
+        <div class="carousel-item_image"></div>
+        <div class="carousel-item_info">
+          <div class="carousel-item_container">
+            <span class="carousel-item_subtitle">PUBLISHING</span>
+            <h1 class="carousel-item_title">Cafe Ogada</h1>
+            <p class="carousel-item_description">카페 오가다 웹사이트 리뉴얼<br>제작 방식 : HTML, CSS, Javascript, JQeury<br>구현 페이지 : Main, Menu</p>
+            <a href="https://k0ngha.github.io/project-cafe-ogada/" target="_blank" class="carousel-item_btn">자세히 보기</a>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item carousel-item-2">
+        <div class="carousel-item_image"></div>
+        <div class="carousel-item_info">
+          <div class="carousel-item_container">
+            <span class="carousel-item_subtitle">PUBLISHING</span>
+            <h1 class="carousel-item_title">Bugs</h1>
+            <p class="carousel-item_description">벅스 뮤직 메인페이지 리뉴얼<br>제작 방식 : HTML, CSS<br>구현 페이지 : Main</p>
+            <a href="https://k0ngha.github.io/project-bugs/" target="_blank" class="carousel-item_btn">자세히 보기</a>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item carousel-item-3">
+        <div class="carousel-item_image"></div>
+        <div class="carousel-item_info">
+          <div class="carousel-item_container">
+            <span class="carousel-item_subtitle">PUBLISHING</span>
+            <h1 class="carousel-item_title">Login Form</h1>
+            <p class="carousel-item_description">웹사이트 로그인 폼 구현<br>제작 방식 : HTML, CSS<br>구현 페이지 : Main, Form</p>
+            <a href="https://k0ngha.github.io/project-login-form/" target="_blank" class="carousel-item_btn">자세히 보기</a>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item carousel-item-4">
+        <div class="carousel-item_image"></div>
+        <div class="carousel-item_info">
+          <div class="carousel-item_container">
+            <span class="carousel-item_subtitle">SCRIPT</span>
+            <h1 class="carousel-item_title">Thumbnail Layout</h1>
+            <p class="carousel-item_description">검색과 버튼에 따라 달라지는 썸네일 레이아웃<br>제작 방식 : HTML, CSS, Javascript<br>구현 페이지 : Search, Zoom Button, Grid Button, List Button</p>
+            <a href="https://k0ngha.github.io/project-thumbnail-layout/" target="_blank" class="carousel-item_btn">자세히 보기</a>
+          </div>
+        </div>
+      </div>
+  
+  </section>
+  <!-- CONTACT -->
+
+  <section id="contact">
+    <div class="contact-bg"></div>
+    <div class="contact-inner">
+      <h5 class="contact-text">링크를 클릭하면 오픈채팅으로 이동합니다!</h5>
+      <address>
+        <a href="https://open.kakao.com/me/dagyeong" target="_blank" class="contact-link">Link : )<span></span></a>
+      </address>
+    </div>
+  </section>
+  <section id="footer">
+    <div class="footer-copyright">© 2023. Dagyeong. All rights reserved.</div>
+    <button class="footer-btn-top">TOP</button>
+  </section>
+  
+  <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script> 
+  <script src="js/script.js"></script>
+</body>
+</html>
